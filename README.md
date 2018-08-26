@@ -5,13 +5,13 @@
 This link field adds a customizable link to the Laravel Nova admin Index and Detail views. It can be used to expose clickable links using the data found in your models. For example, wrapping an email address in a `mailto:` or a Stripe Transaction ID in a link to the Stripe Dashboard.
 
 ### Detail View
-![](github/detail.png?raw=true)
+![](github/Detail.png?raw=true)
 
 ### Index View
-![](github/index.png?raw=true)
+![](github/Index.png?raw=true)
 
 ### Edit View
-![](github/edit.png?raw=true)
+![](github/Edit.png?raw=true)
 
 ## Installation
 
