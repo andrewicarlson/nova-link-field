@@ -7,6 +7,12 @@
         "anchor",
         "link"
     ],
+    "authors": [
+        {
+            "name": "Andrew Carlson",
+            "role": "Developer"
+        }
+    ],
     "license": "MIT",
     "require": {
         "php": ">=7.1.0"
