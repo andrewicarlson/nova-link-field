@@ -4,7 +4,7 @@ namespace Carlson\NovaLinkField;
 
 use Laravel\Nova\Fields\Field;
 
-class NovaLinkField extends Field
+class Link extends Field
 {
     /**
      * The field's component.

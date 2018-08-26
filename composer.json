@@ -17,6 +17,7 @@
         }
     },
     "extra": {
+        "component": "package",
         "laravel": {
             "providers": [
                 "Carlson\\NovaLinkField\\FieldServiceProvider"
