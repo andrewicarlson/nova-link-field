@@ -11,7 +11,7 @@
         <div class="w-3/4 py-4">
             <slot name="value">
                 <p v-if="field.value" class="text-90">
-                    <a :target="field.newTab ? '_blank' : ''" :href="field.href">{{ field.text }}</a>
+                    <a class="no-underline dim text-primary font-bold" :target="field.newTab ? '_blank' : ''" :href="field.href">{{ field.text }}</a>
                 </p>
                 <p v-else>&mdash;</p>
             </slot>
