@@ -30,7 +30,8 @@ Link::make('Card Transaction', 'transaction_id')
         'text' => function () {
             return $this->transaction_id;
         },
-        'newTab' => true
+        'newTab' => true,
+        'class' => 'no-underline dim text-primary font-bold whitespace-no-wrap',
     ]),
 ```
 
@@ -38,10 +39,11 @@ The Update view exposes the underlying model data as a text input.
 
 ## API
 
-The Link field has a custom method `details` which accepts three properties:
+The Link field has a custom method `details` which accepts the following properties (all are required unless otherwise indicated):
 
 1. `href: String | Callable`
 2. `text: String | Callable`
 3. `newTab: Boolean | Callable`
+4. `class: String | Callable` (optional) - accepts any Tailwind class names
 
 The value of the current field can be retrieved and used in the Link by using a `Callable` and using `{$this->field_name}`.
